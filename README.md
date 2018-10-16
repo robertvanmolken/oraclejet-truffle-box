@@ -28,7 +28,36 @@ This box comes with everything you need to start using smart contracts from a Or
     ganache-cli -b 3
     ```
 
-6. Work in Progress
+6. Run the development console.
+	```javascript
+	truffle develop
+	```
+	
+7. Compile and migrate the smart contracts. Note inside the development console we don't preface commands with `truffle`.
+    ```javascript
+    compile
+    migrate
+    ```
+
+8. Run the webpack server for front-end hot reloading (outside the development console). Smart contract changes must be manually recompiled and migrated.
+    ```javascript
+    // Serves the front-end on http://localhost:3000
+    npm run start
+    ```
+	
+9. Truffle can run tests written in Solidity or JavaScript against your smart contracts. Note the command varies slightly if you're in or outside of the development console.
+    ```javascript
+    // If inside the development console.
+    test
+
+    // If outside the development console..
+    truffle test
+    ```
+
+10. To build the application for production, use the build command. A production build will be in the build_webpack folder.
+    ```javascript
+    npm run build
+    ```
 
 # FAQ
 
