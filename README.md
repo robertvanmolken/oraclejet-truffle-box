@@ -1,6 +1,6 @@
 # Oracle JET Truffle Box
 
-This box comes with everything you need to start using smart contracts from a Oracle JET app.  It provides a basic ballot application build using `JET`, `TypeScript`, `Webpack`, and `Web Components` to give you a complete overview of building Dapps with JET.
+This box comes with everything you need to start using smart contracts from a Oracle JET app.  It provides a basic ballot application build using `JET`, `TypeScript`, `Webpack`, and `Web Components` to give you a complete overview of building Dapps with Oracle JET.
 
 ## Installation
 
@@ -63,11 +63,11 @@ This box comes with everything you need to start using smart contracts from a Or
 
 * __Where do I find more information about Oracle JET?__
 
-    Check out the [documentation](https://docs.oracle.com/en/middleware/jet/6/develop/index.html) or their repository ([`oraclejet`](https://github.com/oracle/oraclejet)).
+    Check out the [documentation](https://docs.oracle.com/en/middleware/jet/6/develop/index.html) or their [`oraclejet`](https://github.com/oracle/oraclejet) repository.
 
 * __How do I use this with Ganache?__ 
 
-    The config you need is already in place in truffle.js! Just run your truffle commands as usual, but add --network ganache to your options. For more info, check out our documentation on adding network configurations. Depending on the port you're using and whether or not you're using MetaMask, you may also need to update lines 106 and 112 of app/scripts/index.js.
+    The config you need is already in place in `truffle.js`! Just run your `truffle` commands as usual, but add `--network ganache` to your options. [For more info, check out our documentation on adding network configurations](http://truffleframework.com/docs/advanced/configuration#networks). Depending on the port you're using and whether or not you're using MetaMask, you may also need to update lines 106 and 112 of `app/scripts/index.js`.
 
 * __Why is there both a truffle.js file and a truffle-config.js file?__
 
