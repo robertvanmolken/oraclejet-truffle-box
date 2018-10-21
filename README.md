@@ -7,14 +7,14 @@ This box comes with everything you need to start using smart contracts from a Or
 1. Install Truffle, Oracle JET CLI and Ganache CLI globally. If you prefer, the graphical version of Ganache works as well!
     ```javascript
     npm install -g truffle
-	npm install -g @oracle/ojet-cli
+    npm install -g @oracle/ojet-cli
     npm install -g ganache-cli
     ```
 	
 3. Install and verify TypeScript for Oracle JET.
     ```javascript
     npm install -g @types/oracle__oraclejet
-	npm list -g @types/oracle__oraclejet
+    npm list -g @types/oracle__oraclejet
     ```
 
 4. Download the box. This also takes care of installing the necessary dependencies.
@@ -29,9 +29,9 @@ This box comes with everything you need to start using smart contracts from a Or
     ```
 
 6. Run the development console.
-	```javascript
-	truffle develop
-	```
+    ```javascript
+    truffle develop
+    ```
 	
 7. Compile and migrate the smart contracts. Note inside the development console we don't preface commands with `truffle`.
     ```javascript
@@ -39,13 +39,7 @@ This box comes with everything you need to start using smart contracts from a Or
     migrate
     ```
 
-8. Run the webpack server for front-end hot reloading (outside the development console). Smart contract changes must be manually recompiled and migrated.
-    ```javascript
-    // Serves the front-end on http://localhost:3000
-    npm run start
-    ```
-	
-9. Truffle can run tests written in Solidity or JavaScript against your smart contracts. Note the command varies slightly if you're in or outside of the development console.
+8. Truffle can run tests written in Solidity or JavaScript against your smart contracts. Note the command varies slightly if you're in or outside of the development console.
     ```javascript
     // If inside the development console.
     test
@@ -54,9 +48,15 @@ This box comes with everything you need to start using smart contracts from a Or
     truffle test
     ```
 
-10. To build the application for production, use the build command. A production build will be in the build_webpack folder.
+9. To build and run the application for production, use the build command. 
     ```javascript
-    npm run build
+    ojet build
+    ```
+
+10. Run the ojet server for front-end hot reloading (outside the development console). Smart contract changes must be manually recompiled and migrated.
+    ```javascript
+    // Serves the front-end on http://localhost:8000
+    npm serve
     ```
 
 # FAQ
