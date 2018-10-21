@@ -13,8 +13,8 @@ This box comes with everything you need to start using smart contracts from a Or
 	
 3. Install and verify TypeScript for Oracle JET.
     ```javascript
-    npm install @types/oracle__oraclejet
-	npm list @types/oracle__oraclejet
+    npm install -g @types/oracle__oraclejet
+	npm list -g @types/oracle__oraclejet
     ```
 
 4. Download the box. This also takes care of installing the necessary dependencies.
