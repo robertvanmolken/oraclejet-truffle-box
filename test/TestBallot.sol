@@ -20,4 +20,19 @@ contract TestBallot {
 
         Assert.equal(props.length, 3, "There should be 3 proposals");
     }
+
+    function testGiveRightToVote() public {
+        bytes32 target = stringToBytes32("0x57a04c6609935d4944c6f8e2553aa3f09161c232");
+        ballot.giveRightToVote(address(target));
+    }
+
+    function testVote() public {
+        ballot.vote(1);
+    }
+
+    function stringToBytes32(string memory source) public pure returns (bytes32 result) {
+        assembly {
+            result := mload(add(source, 32))
+        }
+    }
 }

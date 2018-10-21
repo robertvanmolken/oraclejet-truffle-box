@@ -1,9 +1,8 @@
 # dependencies
 node_modules
 
-# testing
-coverage
-
 # production
 build
 build_webpack
+web
+themes

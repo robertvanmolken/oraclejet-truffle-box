@@ -6,3 +6,5 @@ npm install -g truffle
 npm install -g ganache-cli
 
 npm list -g @types/oracle__oraclejet
+
+npm install
