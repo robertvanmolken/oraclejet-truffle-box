@@ -219,6 +219,21 @@
         "path": "libs/require-css/css.min.js",
         "cdnPath": "require-css/css.min"
       }
+    },
+
+    "web3": {
+      "cdn": "3rdparty",
+      "cwd": "node_modules/web3js",
+      "debug": {
+        "src": "web3-min.js",
+        "path": "libs/web3/web3.min.js",
+        "cdnPath": ""
+      },
+      "release": {
+        "src": "web3-min.js",
+        "path": "libs/web3/web3.min.js",
+        "cdnPath": ""
+      }
     }
   }
 } 
