@@ -32,7 +32,8 @@ requirejs.config(
     'customElements': 'libs/webcomponents/custom-elements.min',
     'proj4': 'libs/proj4js/dist/proj4-src',
     'css': 'libs/require-css/css',
-    'touchr': 'libs/touchr/touchr'    
+    'touchr': 'libs/touchr/touchr',
+    'web3': 'libs/web3/web3.min'
   }
   //endinjector
 }

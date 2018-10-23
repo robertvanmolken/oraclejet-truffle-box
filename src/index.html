@@ -26,7 +26,7 @@
   ***************************** IMPORTANT INFORMATION ************************************ -->
 <html lang="en-us">
   <head>
-    <title>Oracle JET Starter Template - Web Nav Bar</title>
+    <title>Oracle JET Ballot Dapp</title>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1">
@@ -69,13 +69,10 @@
           <div class="oj-flex-bar-end">
             <!-- Responsive Toolbar -->
             <oj-toolbar>
-              <oj-menu-button id="userMenu" display="[[smScreen() ? 'icons' : 'all']]" chroming="half">
+              <oj-menu-button id="userMenu" display="[[smScreen() ? 'icons' : 'all']]" chroming="half" PositionAlign="">
                 <span><oj-bind-text value="[[userLogin]]"></oj-bind-text></span>
                 <span slot="endIcon" :class="[[{'oj-icon demo-appheader-avatar': smScreen(), 'oj-component-icon oj-button-menu-dropdown-icon': !smScreen()}]]"></span>
-                <oj-menu id="menu1" slot="menu" style="display:none">
-                  <oj-option id="pref" value="pref">Preferences</oj-option>
-                  <oj-option id="help" value="help">Help</oj-option>
-                  <oj-option id="about" value="about">About</oj-option>
+                <oj-menu id="menu1" slot="menu" style="display:none;">
                   <oj-option id="out" value="out">Sign Out</oj-option>
                 </oj-menu>
               </oj-menu-button>
@@ -105,7 +102,7 @@
           </ul>
         </div>
         <div class="oj-web-applayout-footer-item oj-web-applayout-max-width oj-text-secondary-color oj-text-sm">
-          Copyright © 2014, 2018 Oracle and/or its affiliates All rights reserved.
+          Copyright © 2018 Robert van Mölken All rights reserved.
         </div>
       </footer>
     </div>

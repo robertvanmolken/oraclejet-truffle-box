@@ -1,7 +1,7 @@
 {
   "name": "ballot-dapp",
   "version": "1.0.0",
-  "description": "An Oracle JavaScript Extension Toolkit(JET) web app",
+  "description": "A Ballot Dapp example based on Oracle JET 6",
   "dependencies": {
     "@oracle/oraclejet": "~6.0.0"
   },
